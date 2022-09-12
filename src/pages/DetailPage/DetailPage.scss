@@ -1,0 +1,48 @@
+.movie {
+  &-detail {
+    margin: 30px;
+    text-align: center;
+  }
+
+  &-poster {
+    img {
+      width: 402px;
+      aspect-ratio: auto 402 / 603;
+      height: 603px;
+    }
+  }
+
+  &-title {
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  &-date,
+  &-genres--content,
+  &-cast--title,
+  &-overview--content,
+  &-back {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  &-overview,
+  &-cast--content {
+    padding: 5px 50px;
+  }
+
+  &-genres--content,
+  &-overview--content,
+  &-cast--title {
+    margin-top: 30px;
+  }
+
+  &-cast {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  &-back {
+    cursor: pointer;
+  }
+}
